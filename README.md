@@ -48,8 +48,8 @@ You should have received a copy of the GNU General Public License along with
 this program. If not, see <http://www.gnu.org/licenses/>.
 
 # Footnotes
-[1] Oracle Java: http://www.oracle.com/technetwork/java/javase/downloads/jre9-downloads-3848532.html
-[2] Creating a new Discord application: https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
-[3] Java 8 SDK: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-[4] Apache Maven: https://maven.apache.org/
-[5] Git: https://git-scm.com/
+* [1] Oracle Java: http://www.oracle.com/technetwork/java/javase/downloads/jre9-downloads-3848532.html
+* [2] Creating a new Discord application: https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
+* [3] Java 8 SDK: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* [4] Apache Maven: https://maven.apache.org/
+* [5] Git: https://git-scm.com/
