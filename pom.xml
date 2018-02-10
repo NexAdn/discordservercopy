@@ -19,7 +19,7 @@
 
 	<scm>
 		<url>git://github.com/nexadn/discordservercopy.git</url>
-		<developerConnection>ssh://git@github.com/nexadn/servercopy.git</developerConnection>
+		<developerConnection>ssh://git@github.com/nexadn/discordservercopy.git</developerConnection>
 	</scm>
 
 	<repositories>
