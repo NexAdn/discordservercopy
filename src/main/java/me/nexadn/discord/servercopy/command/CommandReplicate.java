@@ -25,9 +25,12 @@ public class CommandReplicate implements CommandExecutor {
 			return;
 		}
 		if (!bot.getDiscordClient().getOurUser().getPermissionsForGuild(ig1).contains(Permissions.ADMINISTRATOR)
-				|| !bot.getDiscordClient().getOurUser().getPermissionsForGuild(ig2).contains(Permissions.ADMINISTRATOR))
+				|| !bot.getDiscordClient().getOurUser().getPermissionsForGuild(ig2).contains(Permissions.ADMINISTRATOR)
+				|| !event.getAuthor().getPermissionsForGuild(ig1).contains(Permissions.ADMINISTRATOR)
+				|| !event.getAuthor().getPermissionsForGuild(ig2).contains(Permissions.ADMINISTRATOR))
 		{
-			bot.replyPrivate(event, "This bot needs administrator permissions on both guilds for replication.");
+			bot.replyPrivate(event,
+					"Both you and this bot need administrator permissions on both guilds for replication.");
 			return;
 		}
 		bot.replyPrivate(event, "Starting replication process. This may take some time.");
